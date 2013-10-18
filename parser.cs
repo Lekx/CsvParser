@@ -48,17 +48,7 @@ namespace practica4CsvParser
                 readFile();
             }
         }
-        /*
-        public Boolean verifyFile()
-        {
 
-            if (File.Exists(this.filePath))
-                return true;
-            else
-                return false;
-
-        }
-        */
         private void getFileContent() 
         {
             List<string[]> csvArray = new List<string[]>();
@@ -108,8 +98,6 @@ namespace practica4CsvParser
                 {
                     Console.WriteLine("Phone:" + array[3]);
                 }
-
-               /* Console.WriteLine(delimiter + "id: " + array[0] + "\t\t\t\t\tNombre: " + array[1] + "\nDirección: " + array[2] + "\t\tTelefono: " + array[3] + delimiter);*/
             
             }
         
